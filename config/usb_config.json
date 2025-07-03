@@ -6,7 +6,7 @@
         "okapiUsername": "EBSCOMigration",
         "logLevelDebug": false,
         "libraryName": "Bibliotecas USB",
-        "folioRelease": "ransoms",
+        "folioRelease": "ramsons",
         "addTimeStampToFileNames": false,
         "iterationIdentifier": "test_iteration"
     },
@@ -56,6 +56,17 @@
             "userFile": {
                 "file_name": "users.tsv"
             }
+        },
+        {
+            "name": "post_users",
+            "migrationTaskType": "BatchPoster",
+            "objectType": "Users",
+            "batchSize": 500,
+            "files": [
+                {
+                    "file_name": "folio_users_user_transform.json"
+                }
+            ]
         }
     ]
 }
