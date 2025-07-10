@@ -106,6 +106,13 @@
           "fallback_legacy_field": ""
        },
        {
+          "folio_field": "departments[0]",
+          "legacy_field": "department",
+          "value": "",
+          "description": "",
+          "fallback_legacy_field": ""
+       },
+       {
           "folio_field": "legacyIdentifier",
           "legacy_field": "barcode",
           "value": "",

@@ -8,7 +8,7 @@
         "libraryName": "Bibliotecas USB",
         "folioRelease": "ramsons",
         "addTimeStampToFileNames": false,
-        "iterationIdentifier": "test_iteration"
+        "iterationIdentifier": "test_iteration_2"
     },
     "migrationTasks": [
         {
@@ -52,7 +52,8 @@
             "migrationTaskType": "UserTransformer",
             "groupMapPath": "user_groups.tsv",
             "userMappingFileName": "user_mapping.json",
-            "useGroupMap": false,
+            "departmentsMapPath": "user_department.tsv",
+            "useGroupMap": true,
             "userFile": {
                 "file_name": "users.tsv"
             }
