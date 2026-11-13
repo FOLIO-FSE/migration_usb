@@ -67,16 +67,16 @@ python -m folio_migration_tools -h
 ## Transform the bibs into FOLIO Instances and SRS records
 The following command will invoke the first of the three tasks in the configuration task, the **transform_bibs** one. Have your password ready.
 ```bash
-python -m folio_migration_tools mapping_files/exampleConfiguration.json --base_folder_path ./ transform_bibs
+python -m folio_migration_tools mapping_files/usb_config2.json --base_folder_path ./ transform_bibs
 ```
 Congratulations! You have now completed the first step. Take a lookaround in the results and reports folders in iterations/test_iteration to get an understanding for what has happened.
 ## Post the Instances into FOLIO Instances and SRS records
 ```bash
-python -m folio_migration_tools mapping_files/exampleConfiguration.json --base_folder_path ./ post_instances
+python -m folio_migration_tools mapping_files/usb_config2.json --base_folder_path ./ post_instances
 ```
 ## Post the SRS (MARC) Records into FOLIO
 ```bash
-python -m folio_migration_tools mapping_files/exampleConfiguration.json --base_folder_path ./ post_srs_bibs
+python -m folio_migration_tools mapping_files/usb_config2.json --base_folder_path ./ post_srs_bibs
 ```
 Now, you can go off and explore the records in the FOLIO tenant! Make sure to check all the reports and lists of failed records in the reports and results folders!
 

@@ -1,0 +1,411 @@
+{
+   "data": [
+      {
+         "folio_field": "_version",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "accessionNumber",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "barcode",
+         "legacy_field": "barcode",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "legacyIdentifier",
+         "legacy_field": "itemId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].date",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].note",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].noteType",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].source.personal.firstName",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].source.personal.lastName",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "circulationNotes[0].staffOnly",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "copyNumber",
+         "legacy_field": "copy",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "descriptionOfPieces",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "discoverySuppress",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "effectiveCallNumberComponents.callNumber",
+         "legacy_field": "callNumber",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "effectiveCallNumberComponents.prefix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "effectiveCallNumberComponents.suffix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+    	{
+         "folio_field": "itemLevelCallNumber",
+         "legacy_field": "callNumber",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "effectiveShelvingOrder",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].linkText",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].materialsSpecification",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].publicNote",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].relationshipId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].uri",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "formerIds[0]",
+         "legacy_field": "itemId",
+         "value": "",
+         "description": ""
+      },
+     {
+         "folio_field": "formerIds[1]",
+         "legacy_field": "ItemIdBase",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsRecordId",
+         "legacy_field": "emisionId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "hrid",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "inTransitDestinationServicePointId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemDamagedStatusDate",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemDamagedStatusId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemIdentifier",
+         "legacy_field": "itemId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemLevelCallNumberPrefix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemLevelCallNumberSuffix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "itemLevelCallNumberTypeId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "lastCheckIn.dateTime",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "materialTypeId",
+         "legacy_field": "materialTypeId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "missingPieces",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "missingPiecesDate",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].itemNoteTypeId",
+         "legacy_field": "sede",
+         "value": "f442fd55-e323-4629-8e91-5655fd63c5aa",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].note",
+         "legacy_field": "sede",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].staffOnly",
+         "legacy_field": "sede",
+         "value": true,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[1].itemNoteTypeId",
+         "legacy_field": "statusProcess",
+         "value": "e3c627c4-ae98-4765-95ac-3a2c9ccb4d01",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[1].note",
+         "legacy_field": "statusProcess",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[1].staffOnly",
+         "legacy_field": "statusProcess",
+         "value": true,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[2].itemNoteTypeId",
+         "legacy_field": "colection",
+         "value": "d97039b6-63d5-485a-ab80-1c7102695b92",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[2].note",
+         "legacy_field": "colection",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[2].staffOnly",
+         "legacy_field": "colection",
+         "value": true,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].itemNoteTypeId",
+         "legacy_field": "itemNote",
+         "value": "44a08daa-baad-4e62-b261-75b2617d2e88",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].note",
+         "legacy_field": "itemNote",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].staffOnly",
+         "legacy_field": "itemNote",
+         "value": false,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[4].itemNoteTypeId",
+         "legacy_field": "estante",
+         "value": "eed49ac8-ea9c-4d73-82d1-a6b64b9444e1",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[4].note",
+         "legacy_field": "estante",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[4].staffOnly",
+         "legacy_field": "estante",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "permanentLoanTypeId",
+         "legacy_field": "permanentLoanTypeId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "permanentLocationId",
+         "legacy_field": "permanentLocationId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "displaySummary",
+         "legacy_field": "displaySummary",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "enumeration",
+         "legacy_field": "displaySummary",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "purchaseOrderLineIdentifier",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "temporaryLoanTypeId",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "temporaryLocationId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "volume",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "yearCaption[0]",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "numberOfPieces",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "purchaseOrderLineIdentifier",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "status.date",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "status.name",
+         "legacy_field": "",
+         "value": "Puede circular",
+         "description": ""
+      },
+      {
+         "folio_field": "statisticalCodeIds[0]",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": "",
+         "fallback_legacy_field": "",
+         "rules":{
+         "replaceValues":{
+            }
+         }
+      }
+   ]
+}

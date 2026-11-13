@@ -8,7 +8,7 @@
         "libraryName": "Bibliotecas USB",
         "folioRelease": "ramsons",
         "addTimeStampToFileNames": false,
-        "iterationIdentifier": "test_iteration_2"
+        "iterationIdentifier": "after_go_live"
     },
     "migrationTasks": [
         {
@@ -50,12 +50,13 @@
         {
             "name": "user_transform",
             "migrationTaskType": "UserTransformer",
-            "groupMapPath": "user_groups.tsv",
+            "groupMapPath": "CTG_user_groups.tsv",
             "userMappingFileName": "user_mapping.json",
-            "departmentsMapPath": "user_department.tsv",
+            "departmentsMapPath": "CTG_user_department.tsv",
+            "remove_request_preferences": true,
             "useGroupMap": true,
             "userFile": {
-                "file_name": "users.tsv"
+                "file_name": "ctg_1.tsv"
             }
         },
         {
@@ -68,6 +69,62 @@
                     "file_name": "folio_users_user_transform.json"
                 }
             ]
+        },
+        {
+        		"name": "transform_csv_holdings",
+    		  	"migrationTaskType": "HoldingsCsvTransformer",
+    			"holdingsMapFileName": "mapping_emisiones/holdingsrecord_mapping_3.json",
+    			"locationMapFileName": "locations.tsv",
+    			"defaultCallNumberTypeName": "Library of Congress classification",
+    			"callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+                "hridHandling": "default",
+                    "holdingsMergeCriteria": [
+                                            "instanceId",
+                                            "permanentLocationId",
+                                            "callNumber"],
+                    "fallbackHoldingsTypeId": "03c9c400-b9e3-4a07-ac0e-05ab470233ed",
+                    "files": [
+                                    {
+                                      "file_name": "BOG_last_emisiones.tsv"
+                                    }
+                            ]
+        },
+        {
+           		"name": "post_holdingsrecords",
+   			 	"migrationTaskType": "BatchPoster",
+    				"objectType": "Holdings",
+    				"batchSize": 250,
+    				"files": [{
+        					"file_name": "folio_holdings_transform_csv_holdings.json"
+    					}]
+        },
+        {
+                "name": "transform_csv_items",
+                "migrationTaskType": "ItemsTransformer",
+                "itemsMappingFileName": "mapping_emisiones/item_mapping_for_csv_items_3.json",
+                "locationMapFileName": "locations.tsv",
+                "callNumberTypeMapFileName": "call_number_type_mapping.tsv",
+                "materialTypesMapFileName": "material_types.tsv",
+                "loanTypesMapFileName": "loan_types.tsv",
+                "itemStatusesMapFileName": "item_statuses.tsv",
+                "hridHandling": "default",
+                "defaultCallNumberTypeName": "Library of Congress classification",
+                "files": [
+                            {
+                            "file_name": "BOG_last_emisiones.tsv"
+                            }
+                        ]
+        },
+        {
+              "name": "post_csv_items",
+              "migrationTaskType": "BatchPoster",
+              "objectType": "Items",
+              "batchSize": 1500,
+              "files": [
+                          {
+                      "file_name": "folio_items_transform_csv_items.json"
+                          }
+              ]
         }
     ]
 }

@@ -9,112 +9,119 @@
        },
        {
           "folio_field": "barcode",
-          "legacy_field": "barcode",
+          "legacy_field": "CODIGO DE BARRAS *",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "externalSystemId",
-          "legacy_field": "externalSystemId",
+          "legacy_field": "ID SISTEMA EXTERNO*",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.firstName",
-          "legacy_field": "firstName",
+          "legacy_field": "PRIMER NOMBRE",
+          "value": "",
+          "description": "",
+          "fallback_legacy_field": ""
+       },
+       {
+          "folio_field": "personal.secondName",
+          "legacy_field": "SEGUNDO NOMBRE",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.lastName",
-          "legacy_field": "lastName",
+          "legacy_field": "APELLIDOS*",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "patronGroup",
-          "legacy_field": "patronGroup",
+          "legacy_field": "PATRONGROUP (GRUPO DE USUARIOS)*",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.email",
-          "legacy_field": "CORREO_ELECTRONICO_PREFERIDO",
+          "legacy_field": "CORREO ELECTRONICO*",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.mobilePhone",
-          "legacy_field": "mobilePhone",
+          "legacy_field": "TELEFONO MOVIL",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.phone",
-          "legacy_field": "phone",
+          "legacy_field": "TELEFONO",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].addressLine1",
-          "legacy_field": "addressLine1",
+          "legacy_field": "DIRECCIONLINEA1",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].addressLine2",
-          "legacy_field": "addressLine2",
+          "legacy_field": "DIRECCIONLINEA2",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].city",
-          "legacy_field": "city",
+          "legacy_field": "CIUDAD",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].region",
-          "legacy_field": "region",
+          "legacy_field": "ESTADO/DEPARTAMENTO",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].postalCode",
-          "legacy_field": "postalCode",
+          "legacy_field": "CODIGO POSTAL",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "personal.addresses[0].countryId",
-          "legacy_field": "countryId",
+          "legacy_field": "PAIS",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "departments[0]",
-          "legacy_field": "department",
+          "legacy_field": "DEPARTAMENTO",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
        },
        {
           "folio_field": "legacyIdentifier",
-          "legacy_field": "barcode",
+          "legacy_field": "CODIGO DE BARRAS *",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
@@ -122,7 +129,7 @@
        {
           "folio_field": "personal.addresses[0].primaryAddress",
           "legacy_field": "Not mapped",
-          "value": "true",
+          "value": true,
           "description": "",
           "fallback_legacy_field": ""
        },
@@ -142,7 +149,7 @@
        },
        {
           "folio_field": "username",
-          "legacy_field": "barcode",
+          "legacy_field": "ID SISTEMA EXTERNO*",
           "value": "",
           "description": "",
           "fallback_legacy_field": ""
@@ -153,6 +160,12 @@
           "value": true,
           "description": "",
           "fallback_legacy_field": ""
-       }
+       },
+       {
+            "folio_field": "customFields.numeroDeDocumento",
+            "legacy_field": "DOCUMENTO DE IDENTIDAD",
+            "value": "",
+            "description": ""
+        }
     ]
  }

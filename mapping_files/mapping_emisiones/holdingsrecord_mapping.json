@@ -1,0 +1,454 @@
+{
+   "data": [
+      {
+         "folio_field": "_version",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "acquisitionFormat",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "acquisitionMethod",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "callNumber",
+         "legacy_field": "callNumberHoldings",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "callNumberPrefix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "legacyIdentifier",
+         "legacy_field": "itemId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "callNumberSuffix",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "callNumberTypes",
+         "legacy_field": "",
+         "value": "LOCAL",
+         "description": ""
+      },
+      {
+         "folio_field": "copyNumber",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "digitizationPolicy",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "discoverySuppress",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].linkText",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].materialsSpecification",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].publicNote",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].relationshipId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "electronicAccess[0].uri",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "formerIds[0]",
+         "legacy_field": "emisionId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatements[0].note",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatements[0].staffNote",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatements[0].statement",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForIndexes[0].note",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForIndexes[0].staffNote",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForIndexes[0].statement",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForSupplements[0].note",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForSupplements[0].staffNote",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsStatementsForSupplements[0].statement",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "holdingsTypeId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "hrid",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "id",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "illPolicyId",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "instanceId",
+         "legacy_field": "instanceId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].holdingsNoteTypeId",
+         "legacy_field": "NotaAcceso",
+         "value": "db9b4787-95f0-4e78-becf-26748ce6bdeb",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].note",
+         "legacy_field": "NotaAcceso",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[0].staffOnly",
+         "legacy_field": "NotaAcceso",
+         "value": true,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[1].holdingsNoteTypeId",
+         "legacy_field": "NotaAdquisicion",
+         "value": "8d205c7a-529e-4818-8ab0-31b7d6e31eb6",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[1].note",
+         "legacy_field": "NotaAdquisicion",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[1].staffOnly",
+         "legacy_field": "NotaAdquisicion",
+         "value": true,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[2].holdingsNoteTypeId",
+         "legacy_field": "NotaContenido",
+         "value": "ba8a0174-ef68-4ddd-ba91-855878eacd43",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[2].note",
+         "legacy_field": "NotaContenido",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[2].staffOnly",
+         "legacy_field": "NotaContenido",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].holdingsNoteTypeId",
+         "legacy_field": "NotaDescFisica",
+         "value": "e020e691-98bc-4691-b88c-2f952f1b10f9",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].note",
+         "legacy_field": "NotaDescFisica",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[3].staffOnly",
+         "legacy_field": "NotaDescFisica",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[4].holdingsNoteTypeId",
+         "legacy_field": "NotaEdicion",
+         "value": "49e17849-0468-4a4c-b4a4-4bcec9ac0733",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[4].note",
+         "legacy_field": "NotaEdicion",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[4].staffOnly",
+         "legacy_field": "NotaEdicion",
+         "value": false,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[5].holdingsNoteTypeId",
+         "legacy_field": "NotaGeneral",
+         "value": "b160f13a-ddba-4053-b9c4-60ec5ea45d56",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[5].note",
+         "legacy_field": "NotaGeneral",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[5].staffOnly",
+         "legacy_field": "NotaGeneral",
+         "value": true,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[6].holdingsNoteTypeId",
+         "legacy_field": "NotaIndice",
+         "value": "2cd7023a-2895-4811-911d-f03d9c783d3b",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[6].note",
+         "legacy_field": "NotaIndice",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[6].staffOnly",
+         "legacy_field": "NotaIndice",
+         "value": true,
+         "description": ""
+      },
+     {
+         "folio_field": "notes[7].holdingsNoteTypeId",
+         "legacy_field": "NotaRespSecundario",
+         "value": "1f859c04-2389-4057-aa3b-064866ca51a4",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[7].note",
+         "legacy_field": "NotaRespSecundario",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[7].staffOnly",
+         "legacy_field": "NotaRespSecundario",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[8].holdingsNoteTypeId",
+         "legacy_field": "NotaResponsable",
+         "value": "b1ca6258-2c86-4826-be69-7f05582530f8",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[8].note",
+         "legacy_field": "NotaResponsable",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[8].staffOnly",
+         "legacy_field": "NotaResponsable",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[9].holdingsNoteTypeId",
+         "legacy_field": "NotaResumen",
+         "value": "e3c584fc-a821-43fb-9393-a2d8332df9f5",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[9].note",
+         "legacy_field": "NotaResumen",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[9].staffOnly",
+         "legacy_field": "NotaResumen",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "notes[10].holdingsNoteTypeId",
+         "legacy_field": "NotaTema",
+         "value": "220a3cb1-158a-49bc-9c0d-2ef0608762d3",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[10].note",
+         "legacy_field": "NotaTema",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "notes[10].staffOnly",
+         "legacy_field": "NotaTema",
+         "value": false,
+         "description": ""
+      },
+      {
+         "folio_field": "permanentLocationId",
+         "legacy_field": "permanentLocationId",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "receiptStatus",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "receivingHistory.displayType",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "receivingHistory.entries[0].chronology",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "receivingHistory.entries[0].enumeration",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "receivingHistory.entries[0].publicDisplay",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "retentionPolicy",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "shelvingTitle",
+         "legacy_field": "Not mapped",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "sourceId",
+         "legacy_field": "Not mapped",
+         "value": "f32d531e-df79-46b3-8932-cdd35f7a2264",
+         "description": ""
+      },
+      {
+         "folio_field": "tags",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      },
+      {
+         "folio_field": "temporaryLocationId",
+         "legacy_field": "",
+         "value": "",
+         "description": ""
+      }
+   ]
+}
